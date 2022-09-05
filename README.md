@@ -1,5 +1,5 @@
-#Test Frontend Oke Garden
+# Test Frontend Oke Garden
 
-##Technologies used :
+## Technologies used :
 - React.js
 - Tailwind.css
