@@ -1,12 +1,12 @@
-import CalendarComponents from "./card/Calendar";
-import DateAndTime from "./card/DateAndTime";
+import CalendarComponents from "./cardSchedule/Calendar";
+import DateAndTime from "./cardSchedule/DateAndTime";
 
 const Schedule = () => {
   return (
-    <section>
+    <section className="mx-10">
       <div className="max-w-7xl m-auto">
         <div>
-          <div className="flex justify-between">
+          <div className="flex md:flex-row flex-col justify-between items-center flex-wrap gap-10">
             <div className="basis-1/3">
               <CalendarComponents />
             </div>
