@@ -5,7 +5,7 @@ import PersonalData from "../components/PersonalData";
 
 const Home = () => {
   return (
-    <div className="font-lato bg-[#F8F8F8]">
+    <div className="font-lato bg-[#F8F8F8] h-full">
       <Navbar />
       <Header />
       <Schedule />

@@ -6,7 +6,7 @@ const DateAndTime = () => {
 
   return (
     <section>
-      <div className="text-gray-700 bg-white rounded-md p-8 drop-shadow-md md:w-full w-[300px]">
+      <div className="text-gray-700 bg-white rounded-md p-8 drop-shadow-md md:w-full md:h-[400px] w-[300px]">
         <div className="flex flex-col items-center">
           <h3 className="font-semibold text-xl">Thursday</h3>
           <p>October 8, 2022</p>

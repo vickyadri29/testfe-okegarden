@@ -16,7 +16,7 @@ const GardenConsulting = () => {
             {gardenLand.map((data, index) => {
               const { land } = data;
               return (
-                <div className="md:border-2 border md:px-5 px-2 md:py-3 py-1 rounded-lg border-green-800 hover:bg-green-200 cursor-pointer">
+                <div key={index} className="md:border-2 border md:px-5 px-2 md:py-3 py-1 rounded-lg border-green-800 hover:bg-green-200 cursor-pointer">
                   <p className="text-green-800 md:font-bold font-semibold md:text-base text-[8px]">{land}</p>
                 </div>
               );
