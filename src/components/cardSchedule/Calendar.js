@@ -8,7 +8,7 @@ const CalendarComponents = () => {
 
   return (
     <section>
-      <div className="bg-white rounded-md p-8 drop-shadow-md">
+      <div className="bg-white rounded-md p-8 drop-shadow-md md:w-full w-[300px] md:h-[400px]">
         {/* Title */}
         <Calendar
           onChange={setDate}
