@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <section className="text-[#4D4D4D]">
+    <section name="layanan" className="layanan text-[#4D4D4D]">
       <div className="max-w-6xl m-auto">
         <div className="flex flex-col items-center justify-between px-5 md:py-12 py-10">
           <h2 className="font-extrabold text-3xl p-2">Konsultasi Taman</h2>
