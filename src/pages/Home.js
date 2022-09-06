@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Schedule from "../components/Schedule";
-import PersonalData from "../components/PersonalData";
+import Information from "../components/Information";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <Schedule />
-      <PersonalData />
+      <Information />
     </div>
   );
 };

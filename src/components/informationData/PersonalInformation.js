@@ -31,10 +31,10 @@ const PersonalInformation = () => {
               <div className="flex md:flex-row flex-col gap-4">
                 <label htmlFor="address">Alamat</label>
                 <textarea
-                  className="border-2 m-2 p-5 rounded-lg border-green-800 md:w-[700px] md:h-[120px] h-[200px] placeholder-slate-600 placeholder:text-sm text-sm focus:border-gray-300"
+                  className="border-2 m-2 p-5 rounded-lg border-green-800 lg:w-[700px] lg:h-[120px] h-[200px] placeholder-slate-600 placeholder:text-sm text-sm focus:border-gray-300"
                   placeholder="Masukan Alamat lengkap Kamu..."
                 />
-                <p className="md:flex hidden relative top-[90px] right-[190px] text-green-700 underline cursor-pointer md:text-sm text-xs">
+                <p className="lg:flex hidden relative top-[90px] right-[190px] text-green-700 underline cursor-pointer lg:text-sm text-xs">
                   Tambah Alamat Baru
                 </p>
               </div>
